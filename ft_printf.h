@@ -21,4 +21,8 @@ void printDigits(unsigned long long n, const char hexDigits);
 /* This function returns the lengh of the string */
 unsigned int ft_strlen(char *str);
 
+
+/* Print Functions*/
+
+
 #endif

@@ -11,7 +11,7 @@ void printDigits(unsigned long long n, const char hexDigits)
 	if (!(hexDigits == NULL))
 	{ // Handles the hexdecimal numbers
 		printDigits(n / 16, hexDigits);
-		digit = hexDigits[n % 16];    
+		digit = hexDigits[n % 16];
 	}
 	else
 	{ // Handles the decimal numbers

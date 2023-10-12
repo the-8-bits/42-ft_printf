@@ -1,0 +1,454 @@
+  42-ft_printf git:(main) ✗ fran
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                Welcome to Francinette, a 42 tester framework!                ║
+╚═══════════════════════╦══════════════════════════════╦═══════════════════════╝
+                        ║            printf            ║
+                        ╚══════════════════════════════╝
+✔ Preparing framework
+✖ Executing: norminette
+ft_printf_bonus.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  15, col:   4):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  17, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  18, col:  12):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  18, col:  13):	Misaligned variable declaration
+Error: WRONG_SCOPE_COMMENT  (line:  20, col:   5):	Comment is invalid in this scope
+Error: VAR_DECL_START_FUNC  (line:  21, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  21, col:  15):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  21, col:  16):	Misaligned variable declaration
+Error: FORBIDDEN_CHAR_NAME  (line:  21, col:  17):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: VAR_DECL_START_FUNC  (line:  22, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  22, col:  15):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  22, col:  16):	Misaligned variable declaration
+Error: FORBIDDEN_CHAR_NAME  (line:  22, col:  17):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: SPACE_EMPTY_LINE     (line:  23, col:   1):	Space on empty line
+Error: EMPTY_LINE_FUNCTION  (line:  26, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  29, col:   9):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  32, col:  23):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  32, col:  23):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  33, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  34, col:  13):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  37, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  37, col:  21):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  37, col:  24):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line:  39, col:  34):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  39, col:  34):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  40, col:  26):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  40, col:  26):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  42, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  43, col:  13):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  46, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  46, col:  29):	Found space when expecting tab
+Error: WRONG_SCOPE_VAR      (line:  47, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  47, col:  21):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  47, col:  22):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  47, col:  27):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line:  49, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  49, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  50, col:  37):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  50, col:  37):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  51, col:  31):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  51, col:  31):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  53, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  54, col:  13):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  57, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  57, col:  21):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  57, col:  27):	Declaration and assignation on a single line
+Error: SPACE_EMPTY_LINE     (line:  58, col:   1):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line:  59, col:  17):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  62, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  63, col:  17):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  66, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  67, col:  13):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  70, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  70, col:  20):	Found space when expecting tab
+Error: WRONG_SCOPE_VAR      (line:  71, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  71, col:  20):	Found space when expecting tab
+Error: WRONG_SCOPE_VAR      (line:  72, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  72, col:  20):	Found space when expecting tab
+Error: FORBIDDEN_CHAR_NAME  (line:  72, col:  21):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: SPACE_EMPTY_LINE     (line:  73, col:   1):	Space on empty line
+Error: EMPTY_LINE_FUNCTION  (line:  75, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  76, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  78, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  78, col:  21):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  78, col:  22):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  78, col:  27):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line:  80, col:  17):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  81, col:  85):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  86, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  87, col:  17):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  93, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  94, col:  17):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  94, col:  90):	line too long
+Error: WRONG_SCOPE_VAR      (line:  95, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  95, col:  20):	Found space when expecting tab
+Error: FORBIDDEN_CHAR_NAME  (line:  95, col:  21):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: LINE_TOO_LONG        (line:  97, col:  48):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  97, col:  48):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  97, col:  48):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  97, col:  89):	line too long
+Error: WRONG_SCOPE_VAR      (line: 100, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 100, col:  25):	Found space when expecting tab
+Error: FORBIDDEN_CHAR_NAME  (line: 100, col:  26):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: DECL_ASSIGN_LINE     (line: 100, col:  38):	Declaration and assignation on a single line
+Error: TERNARY_FBIDDEN      (line: 100, col:  54):	Ternaries are forbidden
+Error: LINE_TOO_LONG        (line: 100, col:  67):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 100, col:  67):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 100, col:  67):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 100, col:  97):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 101, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 102, col:  21):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 105, col:  25):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 105, col:  90):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 115, col:  25):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 115, col:  90):	line too long
+Error: WRONG_SCOPE_VAR      (line: 116, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 116, col:  29):	Found space when expecting tab
+Error: FORBIDDEN_CHAR_NAME  (line: 116, col:  30):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: SPACE_EMPTY_LINE     (line: 117, col:   1):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 118, col:  25):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line: 119, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 119, col:  28):	Found space when expecting tab
+Error: FORBIDDEN_CHAR_NAME  (line: 119, col:  29):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: MISALIGNED_VAR_DECL  (line: 119, col:  29):	Misaligned variable declaration
+Error: WRONG_SCOPE_COMMENT  (line: 121, col:  41):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 121, col:  41):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 124, col:  29):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 126, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 126, col:   1):	Space on empty line
+Error: LINE_TOO_LONG        (line: 127, col:  41):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 127, col:  41):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 127, col:  41):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 127, col:  84):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 129, col:   1):	Empty line in function
+Error: SPACE_EMPTY_LINE     (line: 129, col:   1):	Space on empty line
+Error: LINE_TOO_LONG        (line: 130, col:  38):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 130, col:  38):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 130, col:  38):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 130, col:  91):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 134, col:  29):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 134, col:  87):	line too long
+Error: LINE_TOO_LONG        (line: 136, col:  38):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 136, col:  38):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 136, col:  38):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 136, col:  91):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 140, col:  29):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 140, col:  88):	line too long
+Error: LINE_TOO_LONG        (line: 142, col:  38):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 142, col:  38):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 142, col:  38):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 142, col:  92):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 146, col:  29):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 149, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 150, col:  25):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 157, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 158, col:  25):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 158, col:  85):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 163, col:   1):	Empty line in function
+Error: LINE_TOO_LONG        (line: 166, col:  39):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 166, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 166, col:  39):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 166, col:  86):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 169, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 172, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 172, col:  39):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 176, col:  45):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 176, col:  45):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 176, col:  45):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 176, col:  96):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 178, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 179, col:  13):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line: 182, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 182, col:  29):	Found space when expecting tab
+Error: SPACE_EMPTY_LINE     (line: 183, col:   1):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 187, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 187, col:  39):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 191, col:  45):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 191, col:  45):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 191, col:  45):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 191, col:  96):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 193, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 194, col:  13):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 194, col:  86):	line too long
+Error: WRONG_SCOPE_VAR      (line: 197, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 197, col:  29):	Found space when expecting tab
+Error: SPACE_EMPTY_LINE     (line: 198, col:   1):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 199, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line: 200, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 200, col:  27):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 200, col:  28):	Misaligned variable declaration
+Error: FORBIDDEN_CHAR_NAME  (line: 200, col:  29):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: TERNARY_FBIDDEN      (line: 200, col:  58):	Ternaries are forbidden
+Error: LINE_TOO_LONG        (line: 200, col:  95):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 205, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 205, col:  39):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 209, col:  50):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 209, col:  50):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 209, col:  50):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 209, col: 105):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 210, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line: 212, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 213, col:  13):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 216, col:  35):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 216, col:  35):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 217, col:  26):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 217, col:  26):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 220, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 223, col:  13):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 224, col:  34):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 224, col:  34):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 225, col:  22):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 225, col:  22):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 227, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 228, col:  19):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 228, col:  19):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 230, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 231, col:  19):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 231, col:  19):	Comment is invalid in this scope
+Error: RETURN_PARENTHESIS   (line: 232, col:  12):	Return value must be in parenthesis
+Error: WRONG_SCOPE_COMMENT  (line: 232, col:  19):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 232, col:  19):	Comment is invalid in this scope
+Error: TOO_MANY_LINES       (line: 233, col:   1):	Function has more than 25 lines
+ft_printf.h: Error!
+Error: EMPTY_LINE_FILE_START (line:   1, col:   1):	Empty line at start of file
+Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+Error: PREPROC_BAD_INDENT   (line:   6, col:   1):	Bad preprocessor indentation
+Error: CONSECUTIVE_NEWLINES (line:   8, col:   1):	Consecutive newlines
+Error: LINE_TOO_LONG        (line:   9, col:   1):	line too long
+Error: CONSECUTIVE_SPC      (line:  11, col:   4):	Two or more consecutives spaces
+Error: SPACE_REPLACE_TAB    (line:  11, col:   4):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  13, col:   1):	line too long
+Error: LINE_TOO_LONG        (line:  13, col:   1):	line too long
+Error: LINE_TOO_LONG        (line:  13, col:   1):	line too long
+Error: SPACE_REPLACE_TAB    (line:  19, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  22, col:  13):	Found space when expecting tab
+Error: CONSECUTIVE_NEWLINES (line:  24, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  27, col:   1):	Consecutive newlines
+ft_printf.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  15, col:   4):	space before function name
+Error: SPACE_REPLACE_TAB    (line:  17, col:   8):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  18, col:  12):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  18, col:  13):	Misaligned variable declaration
+Error: WRONG_SCOPE_COMMENT  (line:  20, col:   5):	Comment is invalid in this scope
+Error: VAR_DECL_START_FUNC  (line:  21, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  21, col:  15):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  21, col:  16):	Misaligned variable declaration
+Error: FORBIDDEN_CHAR_NAME  (line:  21, col:  17):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: VAR_DECL_START_FUNC  (line:  22, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  22, col:  15):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  22, col:  16):	Misaligned variable declaration
+Error: FORBIDDEN_CHAR_NAME  (line:  22, col:  17):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: SPACE_EMPTY_LINE     (line:  23, col:   1):	Space on empty line
+Error: EMPTY_LINE_FUNCTION  (line:  26, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  31, col:  23):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  31, col:  23):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  32, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  33, col:  13):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  36, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  37, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  37, col:  21):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  37, col:  24):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line:  39, col:  34):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  39, col:  34):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  40, col:  26):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  40, col:  26):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  42, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  45, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  46, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  46, col:  29):	Found space when expecting tab
+Error: WRONG_SCOPE_VAR      (line:  47, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  47, col:  21):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line:  47, col:  22):	Misaligned variable declaration
+Error: DECL_ASSIGN_LINE     (line:  47, col:  27):	Declaration and assignation on a single line
+Error: WRONG_SCOPE_COMMENT  (line:  49, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  49, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  50, col:  37):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  50, col:  37):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  51, col:  31):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  51, col:  31):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  53, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  56, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  57, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  57, col:  21):	Found space when expecting tab
+Error: DECL_ASSIGN_LINE     (line:  57, col:  27):	Declaration and assignation on a single line
+Error: SPACE_EMPTY_LINE     (line:  58, col:   1):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line:  59, col:  17):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  62, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  63, col:  17):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  66, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  69, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  70, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  70, col:  20):	Found space when expecting tab
+Error: WRONG_SCOPE_VAR      (line:  71, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  71, col:  20):	Found space when expecting tab
+Error: FORBIDDEN_CHAR_NAME  (line:  71, col:  21):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: SPACE_EMPTY_LINE     (line:  72, col:   1):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line:  74, col:  33):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  74, col:  33):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  78, col:  33):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  78, col:  33):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  80, col:   1):	Empty line in function
+Error: LINE_TOO_LONG        (line:  83, col:  39):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  83, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  83, col:  39):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  83, col:  86):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  86, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  89, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  89, col:  39):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  93, col:  45):	line too long
+Error: WRONG_SCOPE_COMMENT  (line:  93, col:  45):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  93, col:  45):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line:  93, col:  96):	line too long
+Error: EMPTY_LINE_FUNCTION  (line:  95, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line:  98, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line:  99, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line:  99, col:  29):	Found space when expecting tab
+Error: SPACE_EMPTY_LINE     (line: 100, col:   1):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 104, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 104, col:  39):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 108, col:  45):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 108, col:  45):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 108, col:  45):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 108, col:  96):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 110, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 113, col:  17):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 113, col:  90):	line too long
+Error: WRONG_SCOPE_VAR      (line: 114, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 114, col:  29):	Found space when expecting tab
+Error: SPACE_EMPTY_LINE     (line: 115, col:   1):	Space on empty line
+Error: WRONG_SCOPE_COMMENT  (line: 116, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_VAR      (line: 117, col:   1):	Variable declared in incorrect scope
+Error: SPACE_REPLACE_TAB    (line: 117, col:  27):	Found space when expecting tab
+Error: MISALIGNED_VAR_DECL  (line: 117, col:  28):	Misaligned variable declaration
+Error: FORBIDDEN_CHAR_NAME  (line: 117, col:  29):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: TERNARY_FBIDDEN      (line: 117, col:  58):	Ternaries are forbidden
+Error: LINE_TOO_LONG        (line: 117, col:  95):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 122, col:  39):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 122, col:  39):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 126, col:  50):	line too long
+Error: WRONG_SCOPE_COMMENT  (line: 126, col:  50):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 126, col:  50):	Comment is invalid in this scope
+Error: LINE_TOO_LONG        (line: 126, col: 105):	line too long
+Error: EMPTY_LINE_FUNCTION  (line: 127, col:   1):	Empty line in function
+Error: EMPTY_LINE_FUNCTION  (line: 129, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 132, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 133, col:  35):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 133, col:  35):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 134, col:  26):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 134, col:  26):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 137, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 140, col:  13):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 141, col:  34):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 141, col:  34):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 142, col:  22):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 142, col:  22):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 144, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 145, col:  19):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 145, col:  19):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line: 147, col:   1):	Empty line in function
+Error: WRONG_SCOPE_COMMENT  (line: 148, col:  19):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 148, col:  19):	Comment is invalid in this scope
+Error: RETURN_PARENTHESIS   (line: 149, col:  12):	Return value must be in parenthesis
+Error: WRONG_SCOPE_COMMENT  (line: 149, col:  19):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line: 149, col:  19):	Comment is invalid in this scope
+Error: TOO_MANY_LINES       (line: 150, col:   1):	Function has more than 25 lines
+ft_printf_bonus.h: Error!
+Error: PREPROC_BAD_INDENT   (line:  17, col:   1):	Bad preprocessor indentation
+Error: CONSECUTIVE_NEWLINES (line:  19, col:   1):	Consecutive newlines
+Error: LINE_TOO_LONG        (line:  20, col:   1):	line too long
+Error: CONSECUTIVE_SPC      (line:  22, col:   4):	Two or more consecutives spaces
+Error: SPACE_REPLACE_TAB    (line:  22, col:   4):	Found space when expecting tab
+Error: LINE_TOO_LONG        (line:  24, col:   1):	line too long
+Error: LINE_TOO_LONG        (line:  24, col:   1):	line too long
+Error: LINE_TOO_LONG        (line:  24, col:   1):	line too long
+Error: SPACE_REPLACE_TAB    (line:  30, col:   5):	Found space when expecting tab
+Error: SPACE_REPLACE_TAB    (line:  33, col:  13):	Found space when expecting tab
+ft_printf_utils_bonus.c: Error!
+Error: SPACE_BEFORE_FUNC    (line:  16, col:   5):	space before function name
+Error: FORBIDDEN_CHAR_NAME  (line:  16, col:   6):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: SPACE_AFTER_KW       (line:  19, col:   9):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line:  20, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:  21, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:  21, col:   9):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line:  21, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  21, col:  17):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  22, col:   1):	Empty line in function
+Error: BRACE_SHOULD_EOL     (line:  24, col:   6):	Expected newline after brace
+Error: WRONG_SCOPE_COMMENT  (line:  24, col:   7):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  24, col:   7):	Comment is invalid in this scope
+Error: CONSECUTIVE_SPC      (line:  26, col:  35):	Two or more consecutives spaces
+Error: BRACE_SHOULD_EOL     (line:  29, col:   6):	Expected newline after brace
+Error: WRONG_SCOPE_COMMENT  (line:  29, col:   7):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  29, col:   7):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  33, col:   1):	Empty line in function
+Error: CONSECUTIVE_NEWLINES (line:  38, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  41, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  42, col:   1):	Consecutive newlines
+Error: CONSECUTIVE_NEWLINES (line:  43, col:   1):	Consecutive newlines
+Error: SPACE_REPLACE_TAB    (line:  47, col:  15):	Found space when expecting tab
+Error: RETURN_PARENTHESIS   (line:  54, col:  26):	Return value must be in parenthesis
+Error: BRACE_SHOULD_EOL     (line:  55, col:   1):	Expected newline after brace
+ft_printf_utils.c: Error!
+Error: INVALID_HEADER       (line:   1, col:   1):	Missing or invalid 42 header
+Error: SPACE_BEFORE_FUNC    (line:   4, col:   5):	space before function name
+Error: FORBIDDEN_CHAR_NAME  (line:   4, col:   6):	user defined identifiers should contain only lowercase characters, digits or '_'
+Error: SPACE_AFTER_KW       (line:   7, col:   9):	Missing space after keyword
+Error: EMPTY_LINE_FUNCTION  (line:   8, col:   1):	Empty line in function
+Error: VAR_DECL_START_FUNC  (line:   9, col:   1):	Variable declaration not at start of function
+Error: SPACE_REPLACE_TAB    (line:   9, col:   9):	Found space when expecting tab
+Error: WRONG_SCOPE_COMMENT  (line:   9, col:  17):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:   9, col:  17):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  10, col:   1):	Empty line in function
+Error: BRACE_SHOULD_EOL     (line:  12, col:   6):	Expected newline after brace
+Error: WRONG_SCOPE_COMMENT  (line:  12, col:   7):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  12, col:   7):	Comment is invalid in this scope
+Error: BRACE_SHOULD_EOL     (line:  17, col:   6):	Expected newline after brace
+Error: WRONG_SCOPE_COMMENT  (line:  17, col:   7):	Comment is invalid in this scope
+Error: WRONG_SCOPE_COMMENT  (line:  17, col:   7):	Comment is invalid in this scope
+Error: EMPTY_LINE_FUNCTION  (line:  21, col:   1):	Empty line in function
+Error: SPACE_REPLACE_TAB    (line:  29, col:  15):	Found space when expecting tab
+Error: RETURN_PARENTHESIS   (line:  36, col:  26):	Return value must be in parenthesis
+Error: BRACE_SHOULD_EOL     (line:  37, col:   1):	Expected newline after brace
+
+✖ Executing: make fclean bonus
+ft_printf_bonus.c:64:42: error: incompatible pointer to integer conversion passing 'const char *' to parameter of type 'char' [-Werror,-Wint-conversion]
+                                printDigits((unsigned long long)ptr, HEX_DIGITS_LOWER);
+                                                                     ^~~~~~~~~~~~~~~~
+./ft_printf_bonus.h:30:51: note: passing argument to parameter 'hexDigits' here
+void printDigits(unsigned long long n, const char hexDigits);
+                                                  ^
+ft_printf_bonus.c:176:23: error: incompatible pointer to integer conversion passing 'void *' to parameter of type 'char' [-Werror,-Wint-conversion]
+                                        printDigits(num, NULL); // Call the helper function to print decimal digits
+                                                         ^~~~
+/usr/lib/llvm-12/lib/clang/12.0.0/include/stddef.h:89:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+./ft_printf_bonus.h:30:51: note: passing argument to parameter 'hexDigits' here
+void printDigits(unsigned long long n, const char hexDigits);
+                                                  ^
+ft_printf_bonus.c:191:23: error: incompatible pointer to integer conversion passing 'void *' to parameter of type 'char' [-Werror,-Wint-conversion]
+                                        printDigits(num, NULL); // Call the helper function to print decimal digits
+                                                         ^~~~
+/usr/lib/llvm-12/lib/clang/12.0.0/include/stddef.h:89:16: note: expanded from macro 'NULL'
+#  define NULL ((void*)0)
+               ^~~~~~~~~~
+./ft_printf_bonus.h:30:51: note: passing argument to parameter 'hexDigits' here
+void printDigits(unsigned long long n, const char hexDigits);
+                                                  ^
+ft_printf_bonus.c:209:23: error: incompatible pointer to integer conversion passing 'const char *' to parameter of type 'char' [-Werror,-Wint-conversion]
+                                        printDigits(num, hexDigits); // Call the helper function to print hexadecimal digits
+                                                         ^~~~~~~~~
+./ft_printf_bonus.h:30:51: note: passing argument to parameter 'hexDigits' here
+void printDigits(unsigned long long n, const char hexDigits);
+                                                  ^
+ft_printf_bonus.c:164:9: error: variable 'isNegative' is uninitialized when used here [-Werror,-Wuninitialized]
+                                if (isNegative)
+                                    ^~~~~~~~~~
+ft_printf_bonus.c:72:19: note: initialize the variable 'isNegative' to silence this warning
+                                int isNegative;
+                                              ^
+                                               = 0
+5 errors generated.
+make: *** [<builtin>: ft_printf_bonus.o] Error 1
+
+Problem creating the library
